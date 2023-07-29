@@ -2,13 +2,26 @@ h1 {
 	font-family: Helvetica;
 	text-align: center;
 }
-
+  
 img {
 	width: 100px;
 }
-
+  
 #big_div {
 	margin: auto;
 	border: 5px solid black;
 	width: 516px;
+	display:flex;
+	justify-content: space-between;
+}
+
+#a, #e {
+  display: flex;
+  flex-direction: column;
+}
+
+#b {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 }
